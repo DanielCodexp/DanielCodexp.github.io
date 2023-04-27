@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Daniel Hernandez</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
@@ -35,41 +40,51 @@
     <!-- SECCION INICIO -->
     <section id="inicio" class="d-flex inicio">
 
-        <div class="d-flex justify-content-start" style="width: 40%;">
-            <div class="contenido-banner">
-                <div class="contenedor-img">
-                    <img src="img/logoBinas.jpg" alt="">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="contenido-banner">
+                        <div class="contenedor-img">
+                            <img src="img/logoBinas.jpg" alt="">
+                        </div>
+                        <h1>BINAS CODE</h1><br>
+                        <h2>Si lo puedes imaginar, lo podemos programar...</h2>
+                        <div class="redes pt-3">
+                            <a href="https://www.facebook.com/LordDanielHernandez/" target="_blank"> <i
+                                    class="fa-brands fa-square-facebook redes cursor"></i></a>
+                            <a href="https://www.instagram.com/daniel.hernandes.1998/" target="_blank"> <i
+                                    class="fa-brands fa-square-instagram redes cursor"></i></a>
+                            <a href="https://www.linkedin.com/in/danielcode983/" target="_blank"> <i
+                                    class="fa-brands fa-linkedin redes cursor"></i></a>
+                            <a href="https://github.com/DanielCodexp" target="_blank"> <i
+                                    class="fa-brands fa-github redes cursor"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <h1>BINAS CODE</h1><br>
-                <h2>Si lo puedes imaginar, lo podemos programar...</h2>
-                <div class="redes pt-5">
-                    <a  href="https://www.facebook.com/LordDanielHernandez/"  target="_blank"> <i class="fa-brands fa-square-facebook redes cursor"></i></a>
-                    <a  href="https://www.instagram.com/daniel.hernandes.1998/" target="_blank"> <i class="fa-brands fa-square-instagram redes cursor"></i></a>
-                    <a  href="https://www.linkedin.com/in/danielcode983/" target="_blank"> <i class="fa-brands fa-linkedin redes cursor"></i></a>
-                    <a  href="https://github.com/DanielCodexp" target="_blank"> <i class="fa-brands fa-github redes cursor"></i></a>
+
+                <div class="col-lg-7 outer-container">
+                    <section class="cd-intro inner-content">
+                        <h1 class="cd-headline rotate-1" id="cd-headline">
+                            <span class="title">Sitios web para</span><br>
+                            <span class="subtitle cd-words-wrapper">
+                                <b class="is-visible">Empresas</b>
+                                <b>Marcas</b>
+                                <b>Franquisias</b>
+                                <b>Médicos</b>
+                                <b>Hoteles</b>
+                                <b>Tí</b>
+                            </span>
+                        </h1>
+                    </section>
                 </div>
-            </div> 
+            </div>
         </div>
 
-        <div class="d-flex justify-content-center" style="width: 60%;">
 
-        <section class="cd-intro">
-            <h1 class="cd-headline rotate-1" id="cd-headline">
-               <span style="font-size: 80px; font-family: 'Righteous';">Sitios web para</span><br>
-               <span style="font-size: 55px; font-family: 'Righteous';" class="cd-words-wrapper">
-                  <b class="is-visible">Empresas</b>
-                  <b>Marcas</b>
-                  <b>Franquisias</b>
-                  <b>Médicos</b>
-                  <b>Hoteles</b>
-                  <b>Tí</b>
-               </span>
-            </h1>
-         </section>
-        
-        </div>
 
-        
+
+
+
     </section>
 
     <!-- SECCION SOBRE MI -->
@@ -77,14 +92,23 @@
         <div class="contenido-seccion">
             <h2>Sobre nosotros...</h2>
             <p style="text-align: justify;">
-                En <span>Binas Code</span>, creemos que cada negocio, organización y marca tiene su propia personalidad y necesita una presencia en línea única que la represente. Es por eso que nuestro equipo de expertos en desarrollo web se enfoca en brindar soluciones personalizadas a cada uno de nuestros clientes.
+                En <span>Binas Code</span>, creemos que cada negocio, organización y marca tiene su propia personalidad
+                y necesita una presencia en línea única que la represente. Es por eso que nuestro equipo de expertos en
+                desarrollo web se enfoca en brindar soluciones personalizadas a cada uno de nuestros clientes.
 
-                Nuestro enfoque es simple: combinamos la creatividad, la innovación y la excelencia técnica para diseñar y crear sitios web y aplicaciones que reflejen la identidad de nuestros clientes y los ayuden a alcanzar sus objetivos en línea. Con una amplia gama de habilidades, desde el diseño gráfico hasta la programación avanzada, nuestro equipo está equipado para manejar cualquier proyecto, grande o pequeño. <br><br>
-                
-                En <span>Binas Code</span>, nos enorgullecemos de ser un socio confiable y a largo plazo para nuestros clientes. Nos comprometemos a trabajar de cerca con ellos para entender sus necesidades y objetivos en línea y brindar soluciones personalizadas y de alta calidad que los ayuden a lograr el éxito en línea.
-                
-                Si estás buscando una empresa de desarrollo web que se preocupe por tu éxito en línea tanto como tú, no dudes en contactarnos. Estamos ansiosos por trabajar contigo.
-            
+                Nuestro enfoque es simple: combinamos la creatividad, la innovación y la excelencia técnica para diseñar
+                y crear sitios web y aplicaciones que reflejen la identidad de nuestros clientes y los ayuden a alcanzar
+                sus objetivos en línea. Con una amplia gama de habilidades, desde el diseño gráfico hasta la
+                programación avanzada, nuestro equipo está equipado para manejar cualquier proyecto, grande o pequeño.
+                <br><br>
+
+                En <span>Binas Code</span>, nos enorgullecemos de ser un socio confiable y a largo plazo para nuestros
+                clientes. Nos comprometemos a trabajar de cerca con ellos para entender sus necesidades y objetivos en
+                línea y brindar soluciones personalizadas y de alta calidad que los ayuden a lograr el éxito en línea.
+
+                Si estás buscando una empresa de desarrollo web que se preocupe por tu éxito en línea tanto como tú, no
+                dudes en contactarnos. Estamos ansiosos por trabajar contigo.
+
             </p>
 
             <div class="fila">
@@ -94,7 +118,7 @@
                     <ul>
                         <li>
                             <strong>Email</strong>
-                           angeldanielcode@gmail.com
+                            angeldanielcode@gmail.com
                         </li>
                         <li>
                             <strong>Teléfono</strong>
@@ -143,7 +167,7 @@
                             <i class="fa-solid fa-camera"></i>
                             <span>FOTOS</span>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -178,7 +202,7 @@
                             </div>
                         </div>
                     </div>
-                   
+
                     <div class="skill">
                         <span>Wordpress</span>
                         <div class="barra-skill">
@@ -247,13 +271,15 @@
                         <h4>Ingenieria en Sistemas Computacionales</h4>
                         <span class="casa">TECNM Campus Orizaba</span>
                         <span class="fecha">2016 - 2021</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
+                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
+                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
-                   
-                  
+
+
                 </div>
 
                 <div class="col derecha">
@@ -264,8 +290,10 @@
                         <span class="fecha">Junio - Diciembre 2021</span>
                         <p>-Atención al usuario a través de chat, llamadas y videollamadas</p>
                         <p>-Recepción, registro y resolución de incidencias</p>
-                        <p>-Investigación, documentación y escalado de incidencias a niveles superiores de soporte para aquellos problemas que no se hayan podido solucionar con los recursos disponibles</p>
-                        <p>-Asesoramiento a clientes sobre las actualizaciones más recomendables en relación a sus necesidades</p>
+                        <p>-Investigación, documentación y escalado de incidencias a niveles superiores de soporte para
+                            aquellos problemas que no se hayan podido solucionar con los recursos disponibles</p>
+                        <p>-Asesoramiento a clientes sobre las actualizaciones más recomendables en relación a sus
+                            necesidades</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -294,7 +322,7 @@
                             <div class="circulod"></div>
                         </div>
                     </div>
-                 
+
                 </div>
             </div>
         </div>
@@ -398,15 +426,24 @@
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a  href="https://www.facebook.com/LordDanielHernandez/"  target="_blank"> <i class="fa-brands fa-square-facebook redes cursor"></i></a>
-            <a  href="https://www.instagram.com/daniel.hernandes.1998/" target="_blank"> <i class="fa-brands fa-square-instagram redes cursor"></i></a>
-            <a  href="https://www.linkedin.com/in/danielcode983/" target="_blank"> <i class="fa-brands fa-linkedin redes cursor"></i></a>
-            <a  href="https://github.com/DanielCodexp" target="_blank"> <i class="fa-brands fa-github redes cursor"></i></a>
+            <a href="https://www.facebook.com/LordDanielHernandez/" target="_blank"> <i
+                    class="fa-brands fa-square-facebook redes cursor"></i></a>
+            <a href="https://www.instagram.com/daniel.hernandes.1998/" target="_blank"> <i
+                    class="fa-brands fa-square-instagram redes cursor"></i></a>
+            <a href="https://www.linkedin.com/in/danielcode983/" target="_blank"> <i
+                    class="fa-brands fa-linkedin redes cursor"></i></a>
+            <a href="https://github.com/DanielCodexp" target="_blank"> <i
+                    class="fa-brands fa-github redes cursor"></i></a>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
